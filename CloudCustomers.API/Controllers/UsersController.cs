@@ -24,7 +24,13 @@ namespace CloudCustomers.API.Controllers
 		public async Task<IActionResult> Get()
 		{
 			var users = await _usersService.GetAllUsers().ConfigureAwait(false);
-			return Ok("all good");
+
+			if (users.Any())
+			{
+				return Ok(users);
+			}
+
+			return NotFound();
 		}
 	}
 }
