@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCustomers.API", "CloudCustomers.API\CloudCustomers.API.csproj", "{B97E30B2-DF2C-4C3D-9777-CC5FD72C959B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCustoemrs.UnitTests", "CloudCustoemrs.UnitTests\CloudCustoemrs.UnitTests.csproj", "{7D7E5E3A-FCD0-467D-A911-223679549550}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCustomers.UnitTests", "CloudCustoemrs.UnitTests\CloudCustomers.UnitTests.csproj", "{7D7E5E3A-FCD0-467D-A911-223679549550}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCustomers.BL", "CloudCustomers.BL\CloudCustomers.BL.csproj", "{C29A152C-5380-432B-910C-88F9E7F32644}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7D7E5E3A-FCD0-467D-A911-223679549550}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D7E5E3A-FCD0-467D-A911-223679549550}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D7E5E3A-FCD0-467D-A911-223679549550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C29A152C-5380-432B-910C-88F9E7F32644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C29A152C-5380-432B-910C-88F9E7F32644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C29A152C-5380-432B-910C-88F9E7F32644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C29A152C-5380-432B-910C-88F9E7F32644}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

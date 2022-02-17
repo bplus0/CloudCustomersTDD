@@ -8,6 +8,7 @@ namespace CloudCustomers.API
 
 		public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 
+		//hold this
 		public string? Summary { get; set; }
 	}
 }
